@@ -164,3 +164,37 @@ main {
 .shop:hover .original {
    display: none;
 }
+
+footer{
+   padding: 2rem;
+   background-color: var(--cv-secondary);
+   .container{
+      justify-content: space-between;
+      width: 60%;
+   }
+   
+   
+
+}
+
+.info{
+   color: white;
+   font-size: 0.8rem;
+   padding-top: 0.5rem;
+   a{
+      text-decoration: none;
+      color: white;
+      
+   }
+}
+.social{
+   color: white;
+   font-size: 0.8rem;
+   padding-top: 1rem;
+   .icon > i{
+      font-size: 0.8rem;
+      background-color: white;
+      color: var(--cv-secondary);
+      justify-content: space-between;
+   }
+}
