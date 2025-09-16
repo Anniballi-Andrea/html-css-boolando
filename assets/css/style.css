@@ -9,8 +9,56 @@
 
 :root
 {
-    --dis-primary: #ff6900;
-    --dis-secondary: #1a1a1a;
+    --cv-primary: #ff6900;
+    --cv-secondary: #1a1a1a;
 }
 
+.container{
+   width: 80%;
+   margin: auto;
+     
+ }
+ .icon{
+   color: white;
+   font-size: 0.7rem;
+ }
+ 
+
 /*region common*/
+
+/*region header*/
+
+header{
+   background-color: var(--cv-primary);
+   padding: 10px 0px;
+   .container{
+      justify-content: space-between;
+
+   }
+   
+   img{
+      height: 1.5rem;
+
+   }
+   
+   a{
+      text-decoration: none;
+      color: white;
+      padding-right: 0.5rem;
+      font-size: 0.8rem;
+   }
+   
+ }
+ /*region header*/
+
+/*region main*/
+main{
+   
+}
+
+/*region main*/
+
+/*region utilities*/
+.d-flex{
+   display: flex;
+}
