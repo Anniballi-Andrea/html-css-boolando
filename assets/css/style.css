@@ -49,10 +49,10 @@ main {
       width: 60%;
       margin: auto;
       justify-content: center;
-   
+
 
    }
-   
+
 
 }
 
@@ -73,48 +73,63 @@ main {
    font-size: 0.7rem;
 }
 
-.shop {
-   padding-top: 1rem;
-   padding-bottom: 1rem;
-   padding-left: 0.5rem;
-   .change{
-      position: relative;
-   }
+.change {
+   position: relative;
+
    .original {
+      z-index: 1;
+      position: absolute;
+
       img {
          height: 500px;
 
       }
-
-      
-      
 
    }
 
    .alternative {
+      z-index: 0;
+      bottom: 0px;
+
       img {
          height: 500px;
 
       }
 
-      z-index: 0;
+   }
+
+   .wish {
+      z-index: 2;
+      background-color: white;
+      padding: 0.5rem;
       position: absolute;
-      bottom: 0px;
+      bottom: 465px;
+      left: 311px;
+
    }
 }
 
-.price{
-   span{
+.shop {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 0.5rem;
+
+
+}
+
+.price {
+   span {
       color: black;
       text-decoration: line-through;
       padding-left: 0.5rem;
    }
-   
+
 }
-.red{
+
+.red {
    color: red;
 }
 
-.alternative:hover img{
-      display: none;  
+.shop:hover .original {
+   display: none;
 }
