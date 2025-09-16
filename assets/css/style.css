@@ -1,0 +1,16 @@
+/*region common*/
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root
+{
+    --dis-primary: #ff6900;
+    --dis-secondary: #1a1a1a;
+}
+
+/*region common*/
